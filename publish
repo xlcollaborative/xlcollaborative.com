@@ -1,0 +1,2 @@
+#!/bin/sh
+scp $(git ls-files | fgrep -v publish) xlcollaborative.com:/var/www/xlcollaborative.com/
