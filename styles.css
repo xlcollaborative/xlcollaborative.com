@@ -15,6 +15,10 @@ header[role=banner] {
   text-align: center;
 }
 
+footer[role=contentinfo] {
+  margin-bottom: 4rem;
+}
+
 .versions {
   list-style-type: none;
   margin: 0;
