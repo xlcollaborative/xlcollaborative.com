@@ -1,0 +1,21 @@
+html {
+  font-family: sans-serif;
+}
+
+header[role=banner],
+main[role=main],
+footer[role=contentinfo] {
+  margin: 1rem auto;
+  max-width: 30rem;
+}
+
+header[role=banner] {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.versions {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
