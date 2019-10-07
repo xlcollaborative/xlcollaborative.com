@@ -36,3 +36,23 @@ a[href]:hover {
 td {
   padding: 0 1rem;
 }
+
+ins {
+  color: green;
+  text-decoration: underline;
+}
+
+ins a[href] {
+  color: green;
+  font-weight: bold;
+}
+
+del {
+  color: red;
+  text-decoration: line-through;
+}
+
+del a[href] {
+  color: red;
+  font-weight: bold;
+}
