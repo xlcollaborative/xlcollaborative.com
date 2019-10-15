@@ -57,6 +57,10 @@ del a[href] {
   font-weight: bold;
 }
 
+.changed {
+  background: #fcfccc;
+}
+
 aside {
   border: 1px solid #ddd;
   padding: 0 1rem;
