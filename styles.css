@@ -16,7 +16,10 @@ header[role=banner] {
 }
 
 footer[role=contentinfo] {
+  border-top: 1px solid black;
+  font-size: 85%;
   margin-bottom: 4rem;
+  text-align: right;
 }
 
 .versions {
