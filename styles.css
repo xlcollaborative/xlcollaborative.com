@@ -66,3 +66,13 @@ aside {
   margin: 1rem 0;
   padding: 0 1rem;
 }
+
+.twoColumn {
+  column-count: 2;
+  padding-left: 1rem;
+}
+
+.twoColumn li {
+  margin-top: 0;
+}
+
