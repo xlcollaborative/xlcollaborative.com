@@ -7,7 +7,7 @@ header[role=banner],
 main[role=main],
 footer[role=contentinfo] {
   margin: 1rem auto;
-  max-width: 30rem;
+  max-width: 33rem;
 }
 
 header[role=banner] {
