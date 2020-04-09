@@ -13,4 +13,4 @@ all: $(VERSIONS:.md=.odt) $(VERSIONS:.md=.docx) $(VERSIONS:.md=.pdf)
 	pandoc -o $@ $<
 
 %.pdf: %.md
-	pandoc --variable fontsize=12pt -o $@ $<
+	pandoc --variable fontsize=11pt -o $@ $<
