@@ -1,3 +1,4 @@
 #!/bin/sh
 SITE=xlcollaborative.com
+make
 rsync -a --delete --exclude .git . "$SITE:/var/www/$SITE/"
