@@ -21,8 +21,13 @@ header[role=banner] img {
 }
 
 header[role=banner] h1 {
+  margin-bottom: 0;
   margin-top: 0.5rem;
   text-align: center;
+}
+
+.slogan {
+  margin-top: 0.25rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
