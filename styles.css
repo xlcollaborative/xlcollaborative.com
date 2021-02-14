@@ -1,6 +1,7 @@
 html {
   font-family: sans-serif;
   line-height: 1.5;
+  text-align: justify;
 }
 
 header[role=banner],
@@ -12,6 +13,20 @@ footer[role=contentinfo] {
 
 header[role=banner] {
   margin-top: 4rem;
+  text-align: center;
+}
+
+header[role=banner] img {
+  max-width: 7rem;
+}
+
+header[role=banner] h1 {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: left;
 }
 
 footer[role=contentinfo] {
@@ -76,4 +91,9 @@ aside {
 
 .twoColumn li {
   margin-top: 0;
+}
+
+figure {
+  color: #777;
+  text-align: center;
 }

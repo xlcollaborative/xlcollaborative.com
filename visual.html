@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visual Guide to Cross-License Collaboratives</title>
+  <link href="styles.css" rel="stylesheet">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Visual Guide to Cross-License Collaboratives">
+  <meta name="twitter:description" content="co-op-like networks of creative contributors, illustrated and explained">
+  <meta name="twitter:image" content="https://xlcollaborative.com/social.png">
+  <meta name="twitter:creator" content="@kemitchell">
+  <meta name="og:type" content="website">
+  <meta name="og:title" content="Visual Guide to Cross-License Collaboratives">
+  <meta name="og:description" content="co-op-like networks of creative contributors, illustrated and explained">
+  <meta name="og:image" content="https://xlcollaborative.com/social.png">
+</head>
+<body>
+  <header role="banner">
+    <a href="/"><img src="/logo-500.png" alt="logo"></a>
+    <h1>Cross-License Collaboratives</h1>
+  </header>
+  <main role="main">
+    <h2>Visual Guide to Cross-License Collaboratives</h2>
+    <p>The cross-license collaboratives represent a new idea in licensing. Once you understand that idea, it’s really a pretty simple idea. To get there, it often helps to compare cross-license collaboratives to how online creative projects handle licensing today.</p>
+    <h3>Distributed Licensing Projects</h3>
+    <table>
+      <tr>
+        <th>Example</th>
+        <td>Linux kernel</td>
+      </tr>
+      <tr>
+        <th>Pro</th>
+        <td>low overhead</td>
+      </tr>
+      <tr>
+        <th>Con</th>
+        <td>inflexible licensing</td>
+      </tr>
+    </table>
+    <p>In a distributed licensing project, like the Linux kernel, contributors licenses their work to users directly.</p>
+    <p>This approach is relatively simple, and requires little planning or legal overhead. Contributors need only decide which license the project will use and be careful about the license terms for the work of others that they incorporate.</p>
+    <p>However, distributed licensing projects become unable to make licensing decisions over time, like upgrading to a new verison of their license, if contributors become unavailable or refuse to go along. Even a single holdout can block a license decision.</p>
+    <figure>
+      <img src="/figures/distributed.svg" alt="distributed">
+      <figcaption>
+        Distributed Licensing Project with a Holdout Problem
+      </figcaption>
+    </figure>
+    <p>This diagram represent a distributed licensing project. Dana has made contributions to the project, but is no longer available to discuss licensing decisions. Cara and Charles can still make decision about licensing of their own contributions, but they can’t make decisions for Dana’s contributions, so they can’t make decisions for the project as a whole.</p>
+    <h3>Centralized Licensing Projects</h3>
+    <table>
+      <tr>
+        <th>Example</th>
+        <td>GCC</td>
+      </tr>
+      <tr>
+        <th>Pro</th>
+        <td>licensing flexibility</td>
+      </tr>
+      <tr>
+        <th>Con</th>
+        <td>high overhead</td>
+      </tr>
+    </table>
+    <p>In centralized licensing projects, like the Free Software Foundation’s GNU Compiler Collection, users of the project receive licenses through an organization, like a foundation or company, often called the project “steward”. Contributors license or assign ownership of their contributions to the organization.</p>
+    <p>If the organization takes assignments or broad enough contributor license grants, it gathers sufficient rights to make licensing decisions for the project as a whole over time. It doesn’t lose this ability if contributors become unavailable or do not agree with the change.</p>
+    <figure>
+      <img src="/figures/centralized.svg" alt="centralized">
+      <figcaption>
+        Centralized Licensing Project
+      </figcaption>
+    </figure>
+    <p>This diagram represents a centralized licensing project. Though Dana has become unavailable, the organization can still change the license terms for the project overall.</p>
+    <p>The organization might have any number of governance structures that determine how it makes decisions, including licensing decisions. In any event, the organization likely paid substantial legal and political overhead to form a corporation or other legal entity and set up its governance structure.</p>
+    <h3>Cross-License Collaboratives</h3>
+    <p>Cross-license collaboratives combine the low overhead of distributed licensing with the flexibility of centralized licensing.</p>
+    <p>Rather than assigning or licensing their contributions to a centralized organization, contributors license each other. In other words, each contributor “cross-licenses” every other contributor. Those cross-licenses allow them to make licensing decisions for the project as a whole, subject to a governance process that gives each available contributor an equal vote.</p>
+    <figure>
+      <img src="/figures/xlc.svg" alt="XLC">
+      <figcaption>
+        Cross-License Collaborative
+      </figcaption>
+    </figure>
+    <p>Cross-license collaborative governance rules also require sharing of any proceeds related to licensing. If the collaborative makes its project available under a share-alike or noncommercial licensing, and then chooses to sell an exception for closed or commercial use, they must share the license fee with all contributors.</p>
+  </main>
+  <footer role="contentinfo">
+    <p>XLC would not be possible without the <a href="thanks">help of many generous people</a>.</p>
+    <p>If you’d like to contribute to XLC, consider visiting <a href="https://wishlist.xlcollaborative.com">the project wishlist</a>.</p>
+    <p>You can help improve this website <a href="https://github.com/xlcollaborative/xlcollaborative.com">on GitHub</a>.</p>
+  </footer>
+</body>
+</html>

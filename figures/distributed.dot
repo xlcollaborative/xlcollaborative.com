@@ -1,0 +1,24 @@
+digraph {
+  subgraph clusterContributors {
+    label="Contributors";
+    fontcolor=grey;
+    color=grey;
+    Charles;
+    Cara;
+    Dana[style=dashed];
+  }
+
+  subgraph clusterUsers {
+    label="Users";
+    fontcolor=grey;
+    color=grey;
+    labelloc="b";
+    Una;
+    Ulysses;
+  }
+
+  {Charles, Cara} -> Una;
+  {Charles, Cara} -> Ulysses;
+
+  Dana -> {Una, Ulysses};
+}

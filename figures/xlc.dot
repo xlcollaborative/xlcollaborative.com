@@ -1,0 +1,27 @@
+digraph {
+  layout=fdp;
+  graph[K=1];
+
+  subgraph clusterContributors {
+    label="Collaborative";
+    fontcolor=grey;
+    color=grey;
+    Charles;
+    Cara;
+    Dana[style=dashed];
+    Charles -> Cara[dir=both];
+    Cara -> Dana[dir=both];
+    Dana -> Charles[dir=both];
+  }
+
+  subgraph clusterUsers {
+    label="Users";
+    fontcolor=grey;
+    color=grey;
+    Una;
+    Ulysses;
+  }
+
+  Charles -> Ulysses;
+  Cara -> Una;
+}
