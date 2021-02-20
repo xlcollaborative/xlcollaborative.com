@@ -6,7 +6,7 @@ figures=$(wildcard figures/*.dot)
 
 .PHONY: all
 
-all: $(VERSIONS:.md=.odt) $(VERSIONS:.md=.docx) $(VERSIONS:.md=.pdf) $(figures:.dot=.png) $(figures:.dot=.svg)
+all: $(VERSIONS:.md=.odt) $(VERSIONS:.md=.docx) $(VERSIONS:.md=.pdf) logo-500.png logo-1000.png $(figures:.dot=.png) $(figures:.dot=.svg)
 	for file in $(HTML); do tidy -config tidy.config $$file | sponge $$file ; done
 
 %.odt: %.md
@@ -23,3 +23,6 @@ all: $(VERSIONS:.md=.odt) $(VERSIONS:.md=.docx) $(VERSIONS:.md=.pdf) $(figures:.
 
 %.svg: %.dot
 	dot -Tsvg $(DOT_FLAGS) < $< > $@
+
+logo-%.png: logo.svg
+	inkscape $< -w $* -e $@
