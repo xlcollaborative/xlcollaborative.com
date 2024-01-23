@@ -48,7 +48,7 @@ footer[role=contentinfo] {
 }
 
 a[href] {
-  text-decoration: none;
+  text-decoration: dashed underline;
 }
 
 a[href]:hover {
